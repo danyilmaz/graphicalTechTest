@@ -107,7 +107,7 @@ class Image(object):
 
 new_image = None
 while True:
-    user_input = raw_input('type away: ')
+    user_input = raw_input('Enter Command: ')
     args = user_input.split()
     try:
         if args[0] == 'I':
